@@ -20,5 +20,5 @@ A simple extension that allows the user to talk to ChatGPT. Click the microphone
 
 ## Demo
 
-![](https://github.com/TalkToGPT/demo.gif)
+![](https://i.gyazo.com/f448ab3b16314809daf9484a50722a95.gif)
 
