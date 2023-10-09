@@ -1,11 +1,21 @@
 {
-  "name": "React Chrome Extension",
+  "name": "TalkToGPT",
   "version": "1.0.0",
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://chat.openai.com/*", "https://chat.openai.com/c/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "microphone.png",
+    "48": "microphone.png",
+    "128": "microphone.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "TalkToGPT"
+  },
+  "description": "A simple extension that allows the user to talk to ChatGPT. Click the microphone button and begin talking."
 }
